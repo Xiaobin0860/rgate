@@ -1,0 +1,14 @@
+[package]
+name = "network"
+version = "0.1.0"
+authors = ["Li Xiaobin <l_xb@foxmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+abi = { path = "../abi" }
+utils = { path = "../utils" }
+
+[dev-dependencies]
+test-utils = { path = "../test-utils" }
