@@ -6,6 +6,7 @@ members = [
     "macros",
     "network",
     "utils",
+    "zebra",
 
     # for testing purpose
     "fixtures",
